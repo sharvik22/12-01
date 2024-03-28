@@ -28,7 +28,7 @@
   
 - какой тип данных у столбцов в этих таблицах, если данные хранятся в PostgreSQL.
 
-# Сотрудники (
+Сотрудники (
 * employee_id, primary key 
 * фамилия, varchar(20)
 * имя, varchar(20)
@@ -39,25 +39,25 @@
 * проект_id, foreign key, tinyint
 * должность_id, foreign key, tinyint)
 
-# Оклады (
+Оклады (
 * оклад_id, primary key, tinyint
 * оклад, numeric(6,2))
 
-# Должность (
+Должность (
 * должность_id, primary key, tinyint
 * должность, varchar(40))
 
-# Тип_подразделения (
+Тип_подразделения (
 * тип_подразделения_id, primary key, tinyint
 * тип_подразделения, varchar(15))
 
-# Структурное_подразделение (
+Структурное_подразделение (
 * структурное_подразделение_id, primary key, tinyint
 * структурное_подразделение, varchar(50)
 * адрес_филиала_id, foreign key, tinyint 
 * тип_подразделения_id, foreign key, tinyint)
 
-# Адрес_филиала (
+Адрес_филиала (
 * адрес_филиала_id, primary key, tinyint
 * адрес_филиала, varchar(100)
 * город, foreign key, varchar(15))
