@@ -29,7 +29,7 @@
 - какой тип данных у столбцов в этих таблицах, если данные хранятся в PostgreSQL.
 
 Сотрудники (
-employee_id, primary key 
+* employee_id, primary key 
 фамилия, varchar(20)
 имя, varchar(20)
 отчество, varchar(20)
