@@ -67,6 +67,15 @@
 * адрес_филиала, varchar(100)
 * город, foreign key, varchar(15))
 
+Город_филиала (
+* город_филиала_id, primary key, tinyint
+* город, varchar(20))
+
+
+Проект (
+* проект_id, primary key, tinyint
+* название_проекта, varchar(100))
+![image](https://github.com/sharvik22/12-01/assets/136818757/49548418-a6bc-424f-9e58-3a8980641d4f)
 
 
 
