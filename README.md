@@ -38,24 +38,29 @@
 * структурное_подразделение_id, foreign key, tinyint
 * проект_id, foreign key, tinyint
 * должность_id, foreign key, tinyint)
+  
 
 Оклады (
 * оклад_id, primary key, tinyint
 * оклад, numeric(6,2))
+  
 
 Должность (
 * должность_id, primary key, tinyint
 * должность, varchar(40))
+  
 
 Тип_подразделения (
 * тип_подразделения_id, primary key, tinyint
 * тип_подразделения, varchar(15))
+  
 
 Структурное_подразделение (
 * структурное_подразделение_id, primary key, tinyint
 * структурное_подразделение, varchar(50)
 * адрес_филиала_id, foreign key, tinyint 
 * тип_подразделения_id, foreign key, tinyint)
+  
 
 Адрес_филиала (
 * адрес_филиала_id, primary key, tinyint
