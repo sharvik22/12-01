@@ -30,14 +30,14 @@
 
 Сотрудники (
 * employee_id, primary key 
-фамилия, varchar(20)
-имя, varchar(20)
-отчество, varchar(20)
-дата_найма, date
-оклад_id, foreign key, tinyint
-структурное_подразделение_id, foreign key, tinyint
-проект_id, foreign key, tinyint
-должность_id, foreign key, tinyint)
+* фамилия, varchar(20)
+* имя, varchar(20)
+* отчество, varchar(20)
+* дата_найма, date
+* оклад_id, foreign key, tinyint
+* структурное_подразделение_id, foreign key, tinyint
+* проект_id, foreign key, tinyint
+* должность_id, foreign key, tinyint)
 
 
 
